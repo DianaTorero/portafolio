@@ -18,10 +18,9 @@ h1{
 	  font-family: 'Chewy', cursive;
 }
 h4{
-	  padding-left: 28%;
-	  margin-top: 1%;
+		padding-left: 35%;
 	  font-size: 38px;
-	  color: white;
+	  color: black;
 	  font-family: 'Shadows Into Light', cursive;
 	  text-align: center;
 }
@@ -31,15 +30,17 @@ h4{
 }
 
 .yo{
-		/*height: 90%;*/
-		padding: 70px 0;
-		background-color: #F8FFF8;
+		background-color: white;
 }
 
 h2{
 		text-align: center;
 	  margin: 0px;
 	  padding-top: 55px;
+	  padding-bottom: 4%;
+	  color: #FF1975;
+	  font-size: 41px;
+	  font-family: 'Luckiest Guy', cursive;
 }
 
 .navbar-nav {
@@ -48,7 +49,7 @@ h2{
 
 .navbar-default {
 	margin-bottom: 0;
-	background-color: black;
+	background-color: black !important;
 	.navbar-collapse {
 		ul li a.icono {
 			padding: 0;
@@ -57,4 +58,100 @@ h2{
 			}
 		}
 	}
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: black;
+  font-size: 19px;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.icono{
+		margin-top: 2px;
+	  padding-left: 21px;
+	  padding-right: 6px;
+}
+.active{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: red;
+}
+.pt-63 {
+  padding-top: 63px !important;
+  color: #FF1975;
+  font-size: 41px;
+  font-family: 'Luckiest Guy', cursive;
+}
+.pt-70 {
+  padding-top: rem(70) !important;
+  padding-top: 70px !important;
+  font-size: 18px;
+}
+p {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+.foto-blancoynegro{
+	width: 100%;
+}
+.lab{
+	color: orange;
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 0px;
+}
+.logo-html{
+  width: 73%;
+  margin-left: 15%;
+}
+.logo-js{
+	width: 78%;
+	margin-left: 11%;
+}
+.css{
+  width: 53%;
+  margin-left: 23%;
+}
+.nombres-logos{
+	text-align: center;
+  margin: 0px;
+  padding-top: 55px;
+  color: black;
+  text-align: center;
+  font-size: 34px;
+  font-family: 'Luckiest Guy', cursive;
+}
+.text-center{
+  margin: 0px;
+  padding: 6%;
+  padding-top: 55px;
+  color: black;
+  text-align: center;
+  font-size: 34px;
+  font-family: 'Luckiest Guy', cursive;
+}
+.descripcion{
+	font-family: arial;
+}
+.gris{
+	background-color: #D6D6D6;
+}
+.color-gris{
+	background-color: #DBDBDB;
+}
+.color-fucsia{
+	background-color: #FF3385;
+}
+.color-blanco{
+	background-color: white;
+}
+.color-negro{
+	background-color: black;
 }
