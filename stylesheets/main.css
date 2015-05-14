@@ -1,4 +1,7 @@
 /*========================================
+=            Bootstrap                   =
+========================================*/
+/*========================================
 =          Twitter Bootstrap 3.2      =
 ========================================*/
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -5621,7 +5624,9 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-/* utilidades */
+/*========================================
+=             APP CUSTOM                 =
+========================================*/
 .p-0 {
   padding: rem(0) !important;
   padding: 0px !important; }
@@ -6072,31 +6077,38 @@ button.close {
   text-align: center; }
 
 .portada {
-  background-image: url(../imagenes/portada.jpg);
-  height: 884px;
+  background-image: url(../imagenes/portadaterminada.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
   padding-top: 100px; }
 
 h1 {
-  margin-top: 0px;
-  padding-top: 9%;
+  margin-top: -24px;
+  margin-left: 5%;
   color: #FF1975;
-  padding-left: 10%;
-  margin-bottom: 0px;
-  font-size: 82px;
-  text-align: center;
+  font-size: 87px;
   font-family: 'Chewy', cursive; }
 
 h4 {
-  padding-left: 35%;
-  font-size: 38px;
-  color: black;
-  font-family: 'Shadows Into Light', cursive;
-  text-align: center; }
+  margin-top: -1% !important;
+  padding-left: 12% !important;
+  font-size: 35px;
+  color: white;
+  font-family: 'Shadows Into Light', cursive; }
+
+img.flecha {
+  margin: 29% 47%;
+  width: 6%;
+  height: 16%; }
 
 .pantallasos {
-  width: 100%; }
+  width: 88%;
+  margin-left: 38px;
+  padding-bottom: 46px; }
+
+a :hover {
+  color: orange; }
 
 .yo {
   background-color: white; }
@@ -6143,15 +6155,19 @@ h2 {
   color: red; }
 
 .pt-63 {
-  padding-top: 63px !important;
+  padding-top: 42px !important;
   color: #FF1975;
   font-size: 41px;
   font-family: 'Luckiest Guy', cursive; }
 
 .pt-70 {
   padding-top: rem(70) !important;
-  padding-top: 70px !important;
+  padding-top: 53px !important;
   font-size: 18px; }
+
+.separador {
+  height: 23%;
+  color: red; }
 
 p {
   margin: 0 0 10px;
@@ -6170,16 +6186,40 @@ p {
   padding-right: 0px; }
 
 .logo-html {
-  width: 73%;
-  margin-left: 15%; }
+  width: 64.8%;
+  padding: 17%;
+  margin-left: 17%; }
+
+.logo-dise {
+  width: 55%;
+  padding: 14%;
+  margin-bottom: 8px;
+  margin-left: 25%; }
 
 .logo-js {
-  width: 78%;
-  margin-left: 11%; }
+  width: 65%;
+  margin-left: 20%;
+  padding: 15%; }
+
+.logo-boots {
+  width: 60%;
+  margin-left: 21%;
+  padding: 12%; }
+
+.logo-ph {
+  width: 59%;
+  padding: 49px;
+  margin-left: 20%; }
 
 .css {
-  width: 53%;
-  margin-left: 23%; }
+  width: 65%;
+  margin-left: 19%;
+  padding: 17%; }
+
+.responsive {
+  width: 57%;
+  margin-left: 24%;
+  padding: 5%; }
 
 .nombres-logos {
   text-align: center;
@@ -6197,10 +6237,12 @@ p {
   color: black;
   text-align: center;
   font-size: 34px;
-  font-family: 'Luckiest Guy', cursive; }
+  font-family: 'Raleway', sans-serif; }
 
 .descripcion {
-  font-family: arial; }
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+  padding-bottom: 6.6px; }
 
 .gris {
   background-color: #D6D6D6; }
@@ -6215,6 +6257,21 @@ p {
   background-color: white; }
 
 .color-negro {
+  background-color: black; }
+
+.foto-izquierda {
+  background-image: url(../imagenes/coffee-laptop.png);
+  height: 514px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.blanco {
+  height: 15%;
+  width: 100%;
+  color: red; }
+
+.footer {
+  height: 34%;
   background-color: black; }
 
 /*# sourceMappingURL=main.css.map */
