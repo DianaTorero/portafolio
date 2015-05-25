@@ -51,7 +51,7 @@
 	<div id="quien-soy" class="yo">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-6 foto-izquierda"></div>
+				<div class="col-xs-6 izquierda"><img class="foto-izquierda"src="imagenes/avatar-black.png"></div>
 				<div class="col-xs-6 text-center gris">
 					<h2 class="pt-63">¿Quién soy?</h2>
 					<p class="pt-70 descripcion">Soy una joven desarrolladora de páginas web, egresada de <<a class="lab"href="http://laboratoria.la/">Laboratoria</a>> (Junio del 2015), empecé (17 años) con un conocimiento nulo en todo lo que es html, css, bootstrap, etc, y salí creando mi propia página web con los conocimientos obtenidos.</p>
@@ -122,11 +122,24 @@
 		<div class="row footer">
 			<div class="col-12"></div>
 		</div>
-</body>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	<script src="javascripts/bootstrap/collapse.js"></script>
-    <script src="javascripts/bootstrap/transition.js"></script>
+
     <script src="jquery.min.js"></script>
     <script src="bootstrap.min.js"></script>
+    <script>
+		$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				  var target = $(this.hash);
+				  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				  if (target.length) {
+					$('html,body').animate({
+					  scrollTop: target.offset().top - 0 
+					} , 1000);
+					return false;
+				  }
+				}
+			  });
+			});  
+	</script>
+    </body>
 </html>

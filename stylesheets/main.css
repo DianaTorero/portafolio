@@ -6107,9 +6107,6 @@ img.flecha {
   margin-left: 38px;
   padding-bottom: 46px; }
 
-a :hover {
-  color: orange; }
-
 .yo {
   background-color: white; }
 
@@ -6133,13 +6130,13 @@ h2 {
     .navbar-default .navbar-collapse ul li a.icono img {
       height: 42px; }
 
-.navbar-default .navbar-nav > li > a {
-  color: white; }
-
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: white;
   background-color: black;
   font-size: 19px; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #E55555; }
 
 .row {
   margin-left: 0px;
@@ -6165,10 +6162,6 @@ h2 {
   padding-top: 53px !important;
   font-size: 18px; }
 
-.separador {
-  height: 23%;
-  color: red; }
-
 p {
   margin: 0 0 10px;
   font-size: 18px; }
@@ -6182,7 +6175,7 @@ p {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
+  padding-left: 0px;
   padding-right: 0px; }
 
 .logo-html {
@@ -6260,13 +6253,14 @@ p {
   background-color: black; }
 
 .foto-izquierda {
-  background-image: url(../imagenes/coffee-laptop.png);
-  height: 514px;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  width: 85.7%;
+  padding: 17%; }
+
+.izquierda {
+  background-color: #D6D6D6; }
 
 .blanco {
-  height: 15%;
+  height: 5%;
   width: 100%;
   color: red; }
 
