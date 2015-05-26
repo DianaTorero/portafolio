@@ -6115,7 +6115,7 @@ h2 {
   margin: 0px;
   padding-top: 55px;
   padding-bottom: 4%;
-  color: #FF1975;
+  color: black;
   font-size: 41px;
   font-family: 'Luckiest Guy', cursive; }
 
@@ -6146,6 +6146,21 @@ h2 {
   margin-top: 2px;
   padding-left: 21px;
   padding-right: 6px; }
+
+.lower {
+  margin: 0 auto;
+  background-image: url(../imagenes/lp.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5%; }
+
+.lower p {
+  text-align: center;
+  font-size: 40px;
+  color: #FF1975;
+  font-family: 'Raleway', sans-serif; }
 
 .active {
   font-family: 'Gloria Hallelujah', cursive;
@@ -6260,12 +6275,17 @@ p {
   background-color: #D6D6D6; }
 
 .blanco {
-  height: 5%;
+  height: 10%;
   width: 100%;
   color: red; }
 
 .footer {
-  height: 34%;
+  height: 15%;
   background-color: black; }
+
+h6 {
+  margin-top: 49px;
+  color: white;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
