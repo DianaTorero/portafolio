@@ -6084,15 +6084,15 @@ button.close {
   padding-top: 100px; }
 
 h1 {
-  margin-top: -24px;
-  margin-left: 5%;
-  color: #FF1975;
-  font-size: 87px;
-  font-family: 'Chewy', cursive; }
+  margin-top: -1px;
+  margin-left: 4%;
+  color: #32D2B4;
+  font-size: 65px;
+  font-family: 'Luckiest Guy', cursive; }
 
 h4 {
   margin-top: -1% !important;
-  padding-left: 12% !important;
+  padding-left: 11% !important;
   font-size: 35px;
   color: white;
   font-family: 'Shadows Into Light', cursive; }
@@ -6105,7 +6105,20 @@ img.flecha {
 .pantallasos {
   width: 88%;
   margin-left: 38px;
-  padding-bottom: 46px; }
+  padding-bottom: 46px;
+  position: absolute; }
+
+.overlay2.siguientes {
+  width: 557px;
+  height: 225px; }
+
+.overlay2 {
+  background-color: rgba(0, 0, 0, 0.28);
+  height: 250px;
+  position: relative;
+  font-family: 'Shadows Into Light', cursive;
+  margin: 8px;
+  margin-left: 37px; }
 
 .yo {
   background-color: white; }
@@ -6115,9 +6128,12 @@ h2 {
   margin: 0px;
   padding-top: 55px;
   padding-bottom: 4%;
-  color: black;
+  color: #32D2B4;
   font-size: 41px;
   font-family: 'Luckiest Guy', cursive; }
+
+.titulo-negro {
+  color: black; }
 
 .navbar-nav {
   float: right; }
@@ -6133,7 +6149,8 @@ h2 {
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: white;
   background-color: black;
-  font-size: 19px; }
+  font-size: 19px;
+  font-family: 'Raleway', sans-serif; }
 
 .navbar-default .navbar-nav > li > a:hover {
   color: #E55555; }
@@ -6154,13 +6171,22 @@ h2 {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  padding: 5%; }
+  padding: 5%;
+  position: absolute; }
 
 .lower p {
   text-align: center;
   font-size: 40px;
-  color: #FF1975;
-  font-family: 'Raleway', sans-serif; }
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  position: relative;
+  z-index: 100; }
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.37);
+  height: 250px;
+  position: relative;
+  font-family: 'Shadows Into Light', cursive; }
 
 .active {
   font-family: 'Gloria Hallelujah', cursive;
@@ -6168,7 +6194,7 @@ h2 {
 
 .pt-63 {
   padding-top: 42px !important;
-  color: #FF1975;
+  color: #32D2B4;
   font-size: 41px;
   font-family: 'Luckiest Guy', cursive; }
 
@@ -6259,7 +6285,7 @@ p {
   background-color: #DBDBDB; }
 
 .color-fucsia {
-  background-color: #FF3385; }
+  background-color: #32D2B4; }
 
 .color-blanco {
   background-color: white; }
