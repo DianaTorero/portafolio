@@ -6076,6 +6076,12 @@ button.close {
 .text-center {
   text-align: center; }
 
+.bg-gray {
+  background-color: #D6D6D6; }
+
+.pt-21 {
+  padding-top: 21px; }
+
 .portada {
   background-image: url(../imagenes/portadaterminada.jpg);
   background-repeat: no-repeat;
@@ -6155,10 +6161,6 @@ h2 {
 .navbar-default .navbar-nav > li > a:hover {
   color: #E55555; }
 
-.row {
-  margin-left: 0px;
-  margin-right: 0px; }
-
 .icono {
   margin-top: 2px;
   padding-left: 21px;
@@ -6171,8 +6173,7 @@ h2 {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  padding: 5%;
-  position: absolute; }
+  padding: 5%; }
 
 .lower p {
   text-align: center;
@@ -6213,11 +6214,8 @@ p {
 .lab {
   color: orange; }
 
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0px;
-  padding-right: 0px; }
+#trabajos {
+  padding-bottom: 70px; }
 
 .logo-html {
   width: 64.8%;
@@ -6294,8 +6292,16 @@ p {
   background-color: black; }
 
 .foto-izquierda {
-  width: 85.7%;
-  padding: 17%; }
+  width: 300px; }
+
+.capacidad img {
+  width: 100px; }
+  .capacidad img.responsive-logo {
+    width: 150px; }
+
+@media screen and (max-width: 480px) {
+  h3 {
+    font-size: 20px !important; } }
 
 .izquierda {
   background-color: #D6D6D6; }

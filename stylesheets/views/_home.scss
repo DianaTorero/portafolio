@@ -86,10 +86,10 @@ h2{
 .navbar-default .navbar-nav>li>a:hover{
 	color: #E55555;
 }
-.row {
-  margin-left: 0px;
-  margin-right: 0px;
-}
+// .row {
+//   margin-left: 0px;
+//   margin-right: 0px;
+// }
 .icono{
 	margin-top: 2px;
 	padding-left: 21px;
@@ -103,7 +103,7 @@ h2{
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 5%;
-	position: absolute;
+	// position: absolute;
 }
 
 .lower p{
@@ -149,12 +149,18 @@ p {
 .lab{
 	color: orange;
 }
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0px;
-  padding-right: 0px;
+// .container-fluid {
+//   margin-right: auto;
+//   margin-left: auto;
+//   padding-left: 0px;
+//   padding-right: 0px;
+// }
+
+#trabajos {
+	padding-bottom: 70px;
 }
+
+
 .logo-html{
   width: 64.8%;
   padding: 17%;
@@ -230,9 +236,25 @@ p {
 	background-color: black;
 }
 .foto-izquierda{
-  width: 85.7%;
-  padding: 17%;
+  width: 300px;
+  // padding: 17%;
 }
+
+.capacidad {
+	img {
+		width: 100px;
+		&.responsive-logo {
+			width: 150px;
+		}
+	}
+}
+
+h3 {
+	@media screen and (max-width: $screen-phone) {
+		font-size: 20px !important;
+	}
+}
+
 .izquierda{
 	background-color: #D6D6D6;
 }
